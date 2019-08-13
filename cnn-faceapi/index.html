@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Face Api</title>
+
+  <script defer src="face-api.min.js"></script>
+  <script defer src="main.js"></script>
+
+  <style>
+    body {
+      align-items: center;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      margin: 0;
+      width: 100vw;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .container {
+      position: relative;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <video width="720" height="560" id="videoElement" onplay="drawDetections()" autoplay muted></video>
+    <canvas width="720" height="560" id="canvasElement"></canvas>
+  </div>
+</body>
+
+</html>

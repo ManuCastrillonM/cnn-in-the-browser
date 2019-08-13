@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/knn-classifier"></script>
+
+  <title>Pre-trained models | Tensorflow.js</title>
+</head>
+
+<body>
+  <div class="video-container">
+    <video width="427" height="427" id="videoElement" autoplay muted></video>
+  </div>
+  <div class="button-container">
+    <button class="button" id="class-1">class 1</button>
+    <button class="button" id="class-2">class 2</button>
+    <button class="button" id="class-3">class 3</button>
+  </div>
+  <h1 id="outputElement">Result</h1>
+  <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "tensorflowjs-image-recognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ManuCastrillonM",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/knn-classifier": "^1.2.1",
+    "@tensorflow-models/mobilenet": "^2.0.3",
+    "@tensorflow/tfjs": "^1.2.3",
+    "@tensorflow/tfjs-node": "^1.2.4"
+  }
+}
